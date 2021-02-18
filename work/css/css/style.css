@@ -84,6 +84,10 @@ input, select, button {
   display: flex;
 }
 
+.select__area, .gender__area {
+  margin-top: 6px;
+}
+
 .select__unit {
   width: 100%;
   position: relative;
@@ -179,7 +183,7 @@ input, select, button {
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 13px;
-  font-weight: 500px;
+  font-weight: 500;
   text-align: center;
   transition: 0.3s;
   padding: 13px;
